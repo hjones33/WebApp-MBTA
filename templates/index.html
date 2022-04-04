@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Amazing app to help you find nearest MBTA station</title>
+    <title>MBTA Station Locator</title>
+    <h1>MBTA Station Locator</h1>
+    <h2>Only Adresses in the Boston area are valid</h2>
   </head>
   <body>
+    <form action="/data" method = "POST">
+      <p>Address <input type = "text" name = "Address" /></p>
+      <p>City <input type = "text" name = "City" /></p>
+      <p>State <input type = "text" name = "State" /></p>
+      <p><input type = "submit" value = "Submit" /></p>
+  </form>
       
   </body>
 </html>
